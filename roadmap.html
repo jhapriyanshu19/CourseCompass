@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Career Roadmaps</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      color: white;
+      background-color: black;
+      margin: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .card {
+      padding: 20px;
+      border-radius: 5px;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+    .card:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    .card h2 {
+      margin-bottom: 10px;
+    }
+    .card ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .card li {
+      margin-bottom: 5px;
+    }
+    .card-content {
+      display: none;
+      padding: 10px;
+    }
+    .card.active .card-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Tech Career Roadmaps</h1>
+  <p>Explore different career paths and click on each card to expand their roadmap.</p>
+
+  <div class="card-container">
+    <div class="card">
+      <h2>Backend Developer</h2>
+      <p class="card-toggle">+</p>
+      <div class="card-content">
+        <ul>
+          <li>**Beginner:** Learn programming fundamentals (e.g., Python, Java, C#), databases (SQL)</li>
+          <li>**Intermediate:** Master chosen programming language, explore frameworks (e.g., Django, Spring Boot)</li>
+          <li>**Advanced:** API development, microservices architecture, cloud platforms (e.g., AWS, Azure)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <h2>DevOps Engineer</h2>
+      <p class="card-toggle">+</p>
+      <div class="card-content">
+        <ul>
+          <li>**Beginner:** Learn Linux fundamentals, version control (Git), CI/CD pipelines</li>
+          <li>**Intermediate:** Master cloud platforms (e.g., AWS, Azure, GCP), infrastructure automation (e.g., Ansible, Terraform)</li>
+          <li>**Advanced:** Containerization (Docker, Kubernetes), security best practices, DevOps methodologies (e.g., Agile)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Full Stack Developer</h2>
+      <p class="card-toggle">+</p>
+      <div class="card-content">
+        <ul>
+          <li>**Beginner:** Learn front-end technologies (HTML, CSS, JavaScript), back-end fundamentals (Python, Java, etc.)</li>
+          <li>**Intermediate:** Master chosen front-end frameworks (e.g., React, Angular) and back-end frameworks (e.g., Django, Spring Boot)</li>
+          <li>**Advanced:** API integration, full-stack frameworks (e.g., Ruby on Rails), software design patterns</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Android Developer</h2>
+      <p class="card-toggle">+</p>
+      <div class="card-content">
+        <ul>
+          <li>**Beginner:** Learn Java or Kotlin, Android Studio development environment</li>
+          <li>**Intermediate:** Master Android UI development, APIs, and data management</li>
+          <li>**Advanced:** Explore advanced topics like performance optimization, testing frameworks, and architecture patterns</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <h2>PostgreSQL Developer</h2>
+      <p class="card-toggle
